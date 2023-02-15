@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bOOki</title>
     
          <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"> 
+        
+        
+        <link rel="stylesheet" href="css/mobile.css">
         <link rel="stylesheet" href="css/desktop.css">
         <link rel="stylesheet" href="css/tablette.css">
-        <link rel="stylesheet" href="css/mobile.css">
-        
+        <link rel="stylesheet" href="css/desktopa.css">
 
 </head>
 <body>
-    <header>
-        <div>
-            <img src="Images/logo/Booki.png" class="logo" alt="Booki web site" />
-               </div>
-    </header>
-    <nav>
-        <ul> 
-           <li><a href="#Activités">Activités </a></li>
-           <li><a href="#Hébergements">Hébergement </a></li>
-        </ul>
-      </nav>
-    <main>
-    <section class="conteneur-section-zero">
-    
-        
+    <div class="entete">
+                <div class="imageentete">
+                    <header>
+                        
+                            <img src="Images/logo/Booki.png" class="logo" alt="Booki web site" />       
+                    </header> 
+                </div>
+            <div class="nav">
+                <nav>
+                    <ul> 
+                    <li><a href="#Activités">Activités </a></li>
+                    <li><a href="#Hébergements">Hébergement </a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+    <main class="main-conteneur">
+        <!-- section zero-->
+     <section class="conteneur-section-zero">
+
         <div class="vacances">
             <h1 class="vacances-reve">Trouver votre Hébergement pour des vacances de rêve</h1>
         </div>
@@ -42,29 +49,35 @@
                 <i class="fa-solid fa-location-dot fa-lg info-localisation"></i>
             </div>
             <div class="section-zero-nom-ville">
-                <form action="index.php"  class="form"> <input type="text" value="Marseille, France" name="button-marseille"  class="valeur-bouton"/></form> 
+                <form action="#" class="valeur-bouton" > <input type="text" value="Marseille, France" name="button-marseille"  /></form> 
              </div>
+             <div class="gestion-bouton">
+             <div >
              <button class="section-zero-bouton-rechercher">
                 <h4 class="rechercher">Rechercher</h4>  
               </button>
+              </div>
+              <div> 
               <button class="section-zero-icon-rechercher">
                 <i class="fa-solid fa-magnifying-glass rechercher-icon"></i> 
               </button>
+            </div>
+            </div>
         </div>
         <div class="filtres">
             <div class="filtre">
-                <h2 class="first-filtre">filtres</h2>
+                <h2 class="first-filtre">Filtres</h2>
             </div>
             <div class="economique">
-                <div><i class="fa-solid fa-money-bill-wave fa-lg info-wave"></i></div>
+                <div class="filtre-eco-info"><i class="fa-solid fa-money-bill-wave fa-lg info-wave"></i></div>
                 <div class="filtre-eco">Économique</div>
             </div>
-            <div class="economiques-f">
+            <div class="economique">
                 <div><i class="fa-solid fa-person fa-lg info-wave"></i></div>
                 <div class="filtre-eco">Familial</div>
             </div>
-            <div class="economique">
-                <div><i class="fa-solid fa-heart fa-lg info-wave"></i></div>
+            <div class="economiques-f">
+                 <i class="fa-solid fa-heart fa-lg info-wave"></i> 
                 <div class="filtre-eco">Romantique</div>
             </div>
             <div class="economiques">
@@ -79,6 +92,7 @@
             </div>
         </div>
     </section>
+      <!-- section des hergements et des populaires -->
     <section class="conteneur-section-un">
         <div class="conteneur-hergement">
             <div class="hebergement-ligne-zero">
@@ -167,7 +181,7 @@
             <div class="hebergement-deuxieme-group">
                 <div class="hebergement-premier-group-image">
                     <img src="Images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="hebergement-premier-group-image" alt="Hôtel Les mouettes" />
-
+ 
                 </div>
                 <div class="hebergement-premier-group-text">
                     <div>
@@ -202,13 +216,13 @@
                     </div>
             </div>
             </div>
-         </div>
-         <div class="hebergement-ligne-afficher">
-            <h2>  Afficher plus </h2>
-            
+           </div>
+            <div class="hebergement-ligne-afficher">
+                <h2>  Afficher plus </h2>
+                
+            </div>
         </div>
-        </div>
-
+  <!-- conteneur des populaires 30% de la width page -->
         <div class="conteneur-populaire">
             <div class="conteneur-pop">
                 <div class="conteneur-populaires-titres">
@@ -220,9 +234,9 @@
                     </div>
                 
               </div>
-                <div class="populaire-group-conteneur">
+                 <div class="populaire-group-conteneur">  
                     <div class="populaire-group">
-                        <div>
+                        <div class="populaire-group-image">
                             <img src="Images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="populaire-premier-group-image" alt="Hôtel Les mouettes" />
                         </div>
                         <div class="populaire-premier-group-text">
@@ -240,7 +254,7 @@
                     </div>
                     </div>
                     <div class="populaire-group">
-                        <div>
+                        <div class="populaire-group-image">
                             <img src="Images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" class="populaire-premier-group-image" alt="Hôtel Les mouettes" />
                         </div>
                         <div class="populaire-premier-group-text">
@@ -258,7 +272,7 @@
                     </div>
                     </div>
                     <div class="populaire-group">
-                        <div>
+                        <div class="populaire-group-image">
                             <img src="Images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="populaire-premier-group-image" alt="Hôtel Les mouettes" />
                         </div>
                         <div class="populaire-premier-group-text">
@@ -274,14 +288,16 @@
                                 <div><i class="fa-solid fa-star star-pop-gris"></i></div>
                             </div>
                     </div>
-                    </div>
+                    
                  </div>
+                </div>
                 </div>
             </div>
         </div>
-       
-
     </section>
+
+      <!-- section des activites a marseilleus-->
+
     <section class="conteneur-section-deux">
         <div class="activites">
             <div class="ativites-titre">
@@ -289,17 +305,17 @@
 
             </div>
             <div class="activites-listes"> 
-                    <div class="activites-group">
-                     <div>
-                        <img src="Images/Images Booki/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="activites-group-image" alt="Activités à Marseille" />
-    
-                     </div>
-                     <div class="activites-group-footer">
-                        <h2 class="activites-group-footer-titre">vieux-port</h2>
-                     </div>
+                    <div class="activites-group"> 
+                        <div class="conteneur-image-activite">
+                            <img src="Images/Images Booki/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="activites-group-image" alt="Activités à Marseille" />
+        
+                        </div>
+                        <div class="activites-group-footer">
+                            <h2 class="activites-group-footer-titre">vieux-port</h2>
+                        </div>
                     </div>
                     <div class="activites-group">
-                        <div>
+                        <div class="conteneur-image-activite">
                             <img src="Images/Images Booki/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="activites-group-image" alt="Activités à Marseille" />
         
                          </div>
@@ -308,7 +324,7 @@
                          </div>
                     </div>
                     <div class="activites-group">
-                        <div>
+                        <div class="conteneur-image-activite">
                             <img src="Images/Images Booki/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="activites-group-image" alt="Activités à Marseille" />
         
                          </div>
@@ -317,7 +333,7 @@
                          </div>
                     </div>
                     <div class="activites-group">
-                        <div>
+                        <div class="conteneur-image-activite">
                             <img src="Images/Images Booki/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="activites-group-image" alt="Activités à Marseille" />
         
                          </div>
@@ -331,7 +347,7 @@
         </div>
     </section>
 
-
+  <!-- debut footer -->
 <footer class="footer-section">
     
         <div class="footer-listes"> 
