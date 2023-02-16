@@ -375,10 +375,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 align-content: center;
-width: 100%;
+width: 95%;
 height: 300px;
 padding: 0px 5px 0px 5px;
-margin: 0px 2px 0px 0px;
+margin: 0px 2px 0px 10px;
 }
 .conteneur-populaires-titres{
 display: flex;
@@ -405,22 +405,22 @@ align-items: center;
 
 .populaire-group{
 display: flex;
-width: 100%; 
+width: 90%; 
 height: 144px; 
 border: 5px solid #FFFFFF;
-margin: 15px 5px 15px 5px;
+margin: 15px 7px 15px 7px;
 border-radius: 20px 20px 20px 20px;
 background-color: #fff;
 }
 .populaire-group-image{
-width: 40%;
-max-width: 40%;
+width: 35%;
+max-width: 35%;
 height: 144px;  
 }
 .populaire-premier-group-image{
 box-sizing: border-box;
-width: 100%;
-max-width: 100%;
+width: 95%;
+max-width: 95%;
 height: 144px;
 border-radius: 20px 0px 0px 20px;
 object-fit: cover; 
@@ -451,7 +451,7 @@ flex-wrap: wrap;
 height: 15px;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
-font-size: 16px;
+font-size: 14px;
 line-height: 11px;
 color: #000000;
 margin: 45px 0px 12px 12px;  
