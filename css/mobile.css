@@ -99,7 +99,7 @@
 .conteneur-section-zero{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 410px;
     width: 100%; 
     max-width: 100%;
     margin-bottom: 20px;
@@ -225,13 +225,13 @@
     margin: 10px;
 }
 .eco-e{
-    width: 149px; 
+    width: 157px; 
 }
 .eco-f{
-    width: 113px; 
+    width: 123px; 
 }
 .eco-r{    
-    width: 150px; 
+    width: 157px; 
 }
 .eco-a{ 
     width: 200px; 
@@ -288,7 +288,6 @@
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
-        position: relative;
         margin: 20px 0px 20px 0px;
     }
     .conteneur-hergement{
@@ -410,7 +409,7 @@
     justify-content: center;
     background: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    margin: 150px 0px 20px 0px;  
+    margin: 50px 0px 20px 0px;  
 }
 
 .conteneur-pop{
