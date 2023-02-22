@@ -185,13 +185,13 @@ nav{
     margin: 10px;
 }
 .eco-e{
-    width: 14%; 
+    width: 158px; 
 }
 .eco-f{
-    width: 11%; 
+    max-width: 140px; 
 }
 .eco-r{    
-    width: 14%; 
+    width: 158px;
 }
 .eco-a{ 
    width: 206px;
