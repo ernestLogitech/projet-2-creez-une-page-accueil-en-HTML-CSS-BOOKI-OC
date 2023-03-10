@@ -79,7 +79,7 @@ padding: 20px 0px;
 
 nav a:hover{
 color: #0065FC;
-border-top: 2px solid rgb(8, 56, 230);
+border-top: 2px solid #0065FC;
 cursor: pointer;
 }
 
@@ -278,18 +278,27 @@ background-color: rgb(222, 235, 255);
     justify-content: flex-start;
     align-items: center;
     align-content: center;
+    gap: 15px;
 }
+ 
 .logement-circle{
-max-width: 40px;
-margin: 10px 15px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 60px;
+    border: 1px solid #D9D9D9;
 }
-
+ 
 .info-circle{
-width: 10.44px;
-height: 40px;
-color: #0065FC;
-margin: 15px 0px 0px 10px;
-}
+    width: 10.44px;
+    height: 40px;
+    color: #0065FC;
+    }
+    .info-circles{
+        color: #0065FC; 
+    }
 .conteneur-section-un{
 display: flex;
 flex-wrap: wrap;

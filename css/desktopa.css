@@ -15,6 +15,7 @@ font-family: 'Raleway', sans-serif;
         border-radius: 15px 15px 15px 15px; 
         margin: 0px 20px 20px 0px; 
     }
+
     .section-zero-localisation {
         display: flex;
         justify-content: center;
@@ -137,16 +138,33 @@ font-family: 'Raleway', sans-serif;
 }
 }
 @media (768px <= width <= 917px){
-    .logement{
+   
+.logement{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    align-content: center; 
+    align-content: center;
+    gap: 15px;
 }
+ 
 .logement-circle{
-max-width: 40px;
-margin: 10px 15px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 60px;
+    border: 1px solid #D9D9D9;
 }
+ 
+.info-circle{
+    width: 10.44px;
+    height: 40px;
+    color: #0065FC;
+    }
+    .info-circles{
+        color: #0065FC; 
+    }
 .filtres{
     display: flex; 
     width: 100%;

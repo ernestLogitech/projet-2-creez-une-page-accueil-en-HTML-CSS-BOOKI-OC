@@ -82,7 +82,7 @@ nav a{
 
 nav a:hover{
     color: #0065FC;
-    border-top: 3px solid rgb(8, 56, 230);
+    border-top: 3px solid #0065FC;
     cursor: pointer;
 }
 
@@ -271,11 +271,25 @@ input{
 .logement{
     display: flex;
     justify-content: flex-start;
-    margin-top: 10px;
+    align-items: center; 
+    gap: 15px;
 }
 .info-circle{
     width: 20.44px;
     height: 40px;
+    color: #0065FC; 
+}
+.logement-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 60px;
+    border: 1px solid #D9D9D9;
+  
+}
+.info-circles{
     color: #0065FC; 
 }
 .conteneur-section-un{
@@ -623,4 +637,15 @@ input{
     color: #000000;
     margin: 20px 0px 5px 20px;
  }
+ .addicon{
+    box-sizing: border-box;
+
+position: absolute;
+width: 24px;
+height: 24px;
+margin: 10px;
+border: 1px solid #af0808;
+/* Grey/Tint2 */
+/*border: 1px solid #D9D9D9;*/
+}
 }
